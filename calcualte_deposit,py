@@ -1,0 +1,13 @@
+# User input the deposit sum.
+deposit_sum = float(input())
+
+# User Input the Deposit of months.
+deposit_months = int(input())
+
+# User Input the Deposit of interest percent.
+interest_percent= float(input())
+
+# Calculate the total price.
+# сума = депозирана сума + срок на депозита * ((депозирана сума * годишен лихвен процент ) / 12)
+total_price = print(f"deposit_sum * deposit_months * (deposit_sum * interest_percent) /12")
+print(total_price)
